@@ -1,0 +1,89 @@
+.settings-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.settings-page h1 {
+  text-align: center;
+  color: #6366f1;
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.settings-page .tagline {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 24px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.button-group .btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  width: auto;
+}
+
+.btn-secondary {
+  background-color: #f1f5f9;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+.btn-secondary:hover {
+  background-color: #e2e8f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(99, 102, 241, 0.1);
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.select,
+.input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.form-text {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #4b5563;
+}

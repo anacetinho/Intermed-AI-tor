@@ -1,0 +1,84 @@
+.session-room {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.round-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.round-header h1 {
+  margin: 0;
+}
+
+.questions-section {
+  margin-top: 20px;
+}
+
+.question-card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #667eea;
+}
+
+.question-number {
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  font-size: 18px;
+  color: #1f2937;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+textarea.submitted {
+  background: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.submitted-indicator {
+  color: #059669;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.other-responses {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.response-card {
+  background: #fffbeb;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #f59e0b;
+}
+
+.response-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.response-text {
+  color: #374151;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}

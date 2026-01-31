@@ -1,0 +1,31 @@
+/* SessionPage specific styles */
+.container {
+  padding: 16px;
+}
+
+.session-page .card {
+  margin-bottom: 24px;
+}
+
+.session-page .error {
+  background: #fee2e2;
+  border: 2px solid #fca5a5;
+  text-align: center;
+  padding: 30px;
+}
+
+.session-page .error h2 {
+  color: #991b1b;
+  margin-bottom: 16px;
+}
+
+.session-page .error p {
+  color: #7f1d1d;
+  margin-bottom: 24px;
+}
+
+.session-page .btn-secondary {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
